@@ -12,16 +12,8 @@
     border: 1px solid gray;
 }
 
-.big_image{
-    width: 100%;
-}
-
 #status, #start{
     font-size: 20px;
-}
-
-.modal-dialog{
-    width: 80%;
 }
 
 .instructionImage{
@@ -34,6 +26,9 @@ h4{
     line-height: 2;
     color: white;
     margin: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 video{
@@ -42,4 +37,5 @@ video{
     background-position: center;
     padding: 25px;
 }
+
 
