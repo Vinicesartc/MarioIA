@@ -28,21 +28,6 @@ function setup() {
 }
 
 function draw() {
-	background("lightgray")
-	
-	if(noseX < 300){
-		marioX = marioX - 1
-	}
-	if(noseX > 300){
-		marioX = marioX + 1
-	}
-	if(noseY < 150){
-		marioY = marioY - 1
-	}
-	if(noseY > 150){
-		marioY = marioY + 1
-	}
-	image(img, marioX, marioY, 40, 70)
 	game()
 }
 
